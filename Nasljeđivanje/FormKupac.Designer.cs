@@ -33,8 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxAdresaDostave = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.buttonOK = new System.Windows.Forms.Button();
+            this.textBoxWithDefault1 = new Nasljeđivanje.TextBoxWithDefault();
             this.SuspendLayout();
             // 
             // label1
@@ -78,13 +78,6 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Adresa &računa:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(115, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 20);
-            this.textBox1.TabIndex = 5;
-            // 
             // buttonOK
             // 
             this.buttonOK.Location = new System.Drawing.Point(258, 143);
@@ -94,20 +87,27 @@
             this.buttonOK.Text = "OK";
             this.buttonOK.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // textBoxWithDefault1
+            // 
+            this.textBoxWithDefault1.Location = new System.Drawing.Point(115, 78);
+            this.textBoxWithDefault1.Name = "textBoxWithDefault1";
+            this.textBoxWithDefault1.Size = new System.Drawing.Size(218, 20);
+            this.textBoxWithDefault1.TabIndex = 7;
+            // 
+            // FormKupac
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 178);
+            this.Controls.Add(this.textBoxWithDefault1);
             this.Controls.Add(this.buttonOK);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxAdresaDostave);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxImePrezime);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form1";
+            this.Name = "FormKupac";
             this.Text = "Podaci o kupcu";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -121,8 +121,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxAdresaDostave;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button buttonOK;
+        private TextBoxWithDefault textBoxWithDefault1;
     }
 }
 
