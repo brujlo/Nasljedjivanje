@@ -16,5 +16,10 @@ namespace Nasljeđivanje
         {
             InitializeComponent();
         }
+
+        private void textBoxAdresaDostave_TextChanged(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
